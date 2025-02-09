@@ -1,0 +1,133 @@
+.dashboard {
+    margin: 185px 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.item-dashboard {
+    width: 1775px;
+    height: 1675px;
+    background-color: #282929;
+
+    border-radius: 40px;
+}
+
+.item-dashboard-top {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-button {
+    user-select: none;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 20px 32px;
+    background-color:azure;
+    width: 155px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 30px;
+    font-weight: 550;
+    color:#1d1e1e;
+
+    border-radius: 100px;
+    border: 4px solid #3399ff;
+
+    cursor: pointer;
+
+    transition: all 0.15s ease;
+}
+
+.create-button:hover {
+    background-color: color-mix(in srgb, azure 65%, black);
+}
+
+.create-button:active {
+    transform: scale(0.93);
+    background-color: color-mix(in srgb, azure 75%, black);
+}
+
+.create-button-plus {
+    height: 25px;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+
+    column-gap: 25px;
+}
+
+.item-column {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.item {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    border-radius: 20px;
+    border: 1px solid #474848;
+}
+
+.item-image-box {
+    width: 120px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-image {
+    width: 50px;
+}
+
+.item-right {
+    width: 100%;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.item-title {
+    padding-top: 8px;
+    font-size: 30px;
+}
+
+.item-text {
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.image-dashboard {
+    height: 1675px;
+    width: 48.2%;
+    background-color: #4d525d;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 40px;
+}
+
+.image {
+    width: 90%;
+    border-radius: 40px;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: #1d1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.utility-header {
+    background-color: #282929;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 125px;
+}
+
+.utility-header-left-section {
+    margin-left: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 300px;
+}
+
+.logo {
+    height: 75px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    border: 0;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(15, 190, 15);
+}
+
+.file-input {
+    display: none;
+}
