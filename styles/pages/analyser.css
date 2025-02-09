@@ -1,5 +1,5 @@
 .dashboard {
-    margin: 185px 100px;
+    margin: 92.5px 50px;
     
     display: flex;
     justify-content: space-between;
@@ -7,37 +7,37 @@
 }
 
 .item-dashboard {
-    width: 1775px;
-    height: 1675px;
+    width: 887.5px;
+    height: 837.5px;
     background-color: #282929;
 
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .item-dashboard-top {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: flex-end;
 }
 
 .create-button {
     user-select: none;
-    margin-right: 50px;
-    margin-top: 50px;
-    padding: 20px 32px;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding: 10px 16px;
     background-color:azure;
-    width: 155px;
+    width: 77.5px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 550;
     color:#1d1e1e;
 
     border-radius: 100px;
-    border: 4px solid #3399ff;
+    border: 2px solid #3399ff;
 
     cursor: pointer;
 
@@ -54,15 +54,15 @@
 }
 
 .create-button-plus {
-    height: 25px;
+    height: 12.5px;
 }
 
 .item-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px;
+    padding: 25px;
 
-    column-gap: 25px;
+    column-gap: 12.5px;
 }
 
 .item-column {
@@ -70,7 +70,7 @@
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
 }
 
 .item {
@@ -80,12 +80,12 @@
     align-items: center;
     justify-content: left;
 
-    border-radius: 20px;
+    border-radius: 10px;
     border: 1px solid #474848;
 }
 
 .item-image-box {
-    width: 120px;
+    width: 60px;
     
     display: flex;
     align-items: center;
@@ -93,30 +93,30 @@
 }
 
 .item-image {
-    width: 50px;
+    width: 25px;
 }
 
 .item-right {
     width: 100%;
-    padding-right: 12px;
+    padding-right: 6px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 .item-title {
-    padding-top: 8px;
-    font-size: 30px;
+    padding-top: 4px;
+    font-size: 15px;
 }
 
 .item-text {
-    padding-bottom: 10px;
-    font-size: 20px;
+    padding-bottom: 5px;
+    font-size: 10px;
     
 }
 
 .image-dashboard {
-    height: 1675px;
+    height: 837.5px;
     width: 48.2%;
     background-color: #4d525d;
     
@@ -124,10 +124,10 @@
     align-items: center;
     justify-content: center;
     
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .image {
     width: 90%;
-    border-radius: 40px;
+    border-radius: 20px;
 }

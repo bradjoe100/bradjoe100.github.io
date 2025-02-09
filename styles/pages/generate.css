@@ -3,21 +3,21 @@ body {
 }
 
 .dashboard {
-    margin: 300px 900px;
+    margin: 150px 450px;
 }
 
 .upload-box {
     width: 100%;
-    height: 950px;
+    height: 475px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
-    border: 6px dashed #3399ff;
+    border: 3px dashed #3399ff;
     background-color: #1d1e1e;
-    border-radius: 36px;
+    border-radius: 18px;
 }
 
 .upload-icon {
@@ -38,7 +38,7 @@ body {
 
 .upload-text {
     margin-top: 2.5%;
-    font-size: 2.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -48,19 +48,19 @@ body {
     display: inline-block;
     height: 10%;
     width: 20%;
-    margin-top: 50px;
+    margin-top: 25px;
     background: linear-gradient(90deg, #e0eeff, #3399ff);
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 550;
     color:#1d1e1e;
 
     border-radius: 100px;
-    border: 3px solid #3399ff;
+    border: 1px solid #3399ff;
 
     cursor: pointer;
 
@@ -95,5 +95,5 @@ body {
 
 .upload-button-text {
     margin-left: 6%;
-    font-size: 2rem;
+    font-size: 1rem;
 }
