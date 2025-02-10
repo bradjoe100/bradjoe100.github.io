@@ -4,7 +4,7 @@
  *  @since February 8, 2025
  */
 
-let idList;
+export let idList;
 loadIdList();
 
 function loadIdList() {
@@ -27,6 +27,11 @@ export function saveToStorage(set) {
     return id;
 }
 
+export function removeFromStorage(id) {
+    removeId(id);
+    localStorage.removeItem(`set-${id}`);
+}
+
 function generateId() {
     while (true) {
         let id = Math.random().toString(36).substring(2, 11);
@@ -40,4 +45,9 @@ function containsID(id) {
         if (listId === id)
             return true;
     return false;
+}
+
+function removeId(id) {
+    idList = idList.filter(element => element !== id);
+    saveIdListToStorage();
 }
